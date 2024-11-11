@@ -29,6 +29,7 @@ body {
     font-size: 16px;
     color: #2E2F42;
     text-decoration: none;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -53,10 +54,18 @@ body {
 .contact-link {
     color: #2E2F42;
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover {
-    color: #404BBF;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.contact-link:focus{
+    color: #404bbf;
 }
 
 .first-section {
@@ -89,7 +98,7 @@ body {
 .second-title {
     font-weight: 500;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -103,6 +112,14 @@ body {
 
 .our-team {
     background-color: #F4F4FD;
+}
+
+.third-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .block {
