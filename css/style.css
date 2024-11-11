@@ -1,0 +1,102 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.brand-logo {
+    color: #2E2F42;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.menu-nav {
+    font-size: 16px;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.menu-nav:hover {
+    color: #404BBF;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-link {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #404BBF;
+}
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+.title {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.second-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.block {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
