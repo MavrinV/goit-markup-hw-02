@@ -27,7 +27,7 @@ body {
 
 .menu-nav {
     font-size: 16px;
-    color: #2E2F42;
+    color: #434455;
     text-decoration: none;
     font-weight: 500;
     line-height: 1.5;
@@ -40,7 +40,7 @@ body {
 }
 
 .menu-nav:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .adress{
@@ -74,6 +74,10 @@ body {
 
 .title {
     font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -89,16 +93,18 @@ body {
     background-color: #4D5AE5;
 }
 
-.button:focus
-
 .button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus{
     background-color: #404BBF;
 }
 
 .second-title {
     font-weight: 500;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -124,6 +130,7 @@ body {
 
 .block {
     list-style-type: none;
+    background-color: #FFFFFF;
 }
 
 .footer {
