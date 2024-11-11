@@ -18,6 +18,7 @@ body {
 
 .brand-logo {
     color: #2E2F42;
+    text-transform: uppercase;
 }
 
 .nav-list {
@@ -28,10 +29,21 @@ body {
     font-size: 16px;
     color: #2E2F42;
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav:focus{
+    color: #404bbf;
+    background-color: #404BBF;
 }
 
 .menu-nav:hover {
     color: #404BBF;
+}
+
+.adress{
+    font-style: normal;
 }
 
 .contact-list {
@@ -57,13 +69,18 @@ body {
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     border: none;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
+
+.button:focus
 
 .button:hover {
     background-color: #404BBF;
@@ -77,6 +94,11 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+}
+
+.text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .our-team {
